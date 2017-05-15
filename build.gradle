@@ -15,5 +15,6 @@ test {
     reports {
         junitXml.enabled = false
         html.enabled = true
+        reports.html.destination = "./.framgia-ci-reports/gradle"
     }
 }
