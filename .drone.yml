@@ -7,3 +7,4 @@ pipeline:
         - curl -o /usr/bin/framgia-ci https://raw.githubusercontent.com/tranduykhanh/ci-report-tool/master/dist/framgia-ci && chmod +x /usr/bin/framgia-ci
         - ./gradlew test
         - framgia-ci run
+        
