@@ -1,6 +1,6 @@
-url: http://smartstudy.edu.vn:8000
+#url: http://smartstudy.edu.vn:8000
 
-pipeline:
+#pipeline:
     build:
       image: java:openjdk-7
       environment:
