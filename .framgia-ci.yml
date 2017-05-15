@@ -2,4 +2,4 @@ project_type: php
 test:
   gradlew:
     ignore: true
-    command: phpcpd --log-pmd=.framgia-ci-reports/phpcpd.xml app
+    command: ./gradlew test
