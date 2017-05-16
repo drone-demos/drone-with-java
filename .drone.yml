@@ -1,4 +1,4 @@
-#pipeline:
+pipeline:
     build:
       image: java:openjdk-7
       environment:
