@@ -1,5 +1,3 @@
-#url: http://smartstudy.edu.vn:8000
-
 #pipeline:
     build:
       image: java:openjdk-7
