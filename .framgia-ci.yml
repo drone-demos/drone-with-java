@@ -1,4 +1,3 @@
-url: http://smartstudy.edu.vn:8000
 project_type: java
 test:
   gradlew:
