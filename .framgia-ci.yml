@@ -1,4 +1,4 @@
-project_type: java
+project_type: java 
 test:
   gradlew:
     ignore: true
