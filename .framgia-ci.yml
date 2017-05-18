@@ -1,0 +1,10 @@
+project_type: java
+
+test:
+  gradlew:
+    ignore: true
+    command: ./gradlew test
+
+
+
+

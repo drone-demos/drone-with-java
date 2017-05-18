@@ -10,3 +10,11 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+test {
+    reports {
+        junitXml.enabled = false
+        html.enabled = true
+        reports.html.destination = "./.framgia-ci-reports/junit"
+    }
+}

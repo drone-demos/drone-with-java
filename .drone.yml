@@ -1,6 +1,7 @@
-build:
-  image: java:openjdk-7
-  environment:
-    - GRADLE_USER_HOME=~/.gradle
-  commands:
-    - ./gradlew test
+    build:
+      image: java:openjdk-7
+      environment:
+        - GRADLE_USER_HOME=~/.gradle
+      commands:
+        - curl -o /usr/bin/framgia-ci https://raw.githubusercontent.com/framgia/ci-report-tool/master/dist/framgia-ci && chmod +x /usr/bin/framgia-ci
+        - framgia-ci run
